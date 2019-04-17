@@ -11,6 +11,6 @@ if (navigator.geolocation) {
         callback(position.coords.latitude + "," + position.coords.longitude);
     }, function(err) {
         clearTimeout(timeout);
-        callback(null);
+        callback(null); 
     });
 }
